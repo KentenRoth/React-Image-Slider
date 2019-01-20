@@ -4,9 +4,9 @@ import "./Image.css";
 const Image = ({ image }) => {
     const styles = {
         backgroundImage: `url(${image})`,
-        backgroundSize: "cover",
+        backgroundSize: "full",
         backgroundRepeat: "no-repeat",
-        backgroundPostion: "50% 60%"
+        backgroundPosition: '50% 60%'
     };
 
     return <div className="image" style={styles} />;

@@ -1,0 +1,9 @@
+.rightArrow {
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 100px;
+    z-index: 999;
+}

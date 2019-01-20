@@ -1,0 +1,9 @@
+.leftArrow {
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 100px;
+    z-index: 999;
+}

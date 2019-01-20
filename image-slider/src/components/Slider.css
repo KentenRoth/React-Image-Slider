@@ -1,5 +1,13 @@
 .slider {
-    height: 500px;
+    position: relative;
     width: 100%;
-    padding: 25px;
-}
+    margin: 0 auto;
+    height: 500px;
+    white-space: nowrap;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
